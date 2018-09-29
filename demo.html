@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      /*div:not([class~=demo]){
+        width: 100px;
+        height: 100px;
+        background: red;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }*/
+      *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        color: #fff;
+      }
+      .wrapper{
+        width: 500px;
+        height: 350px;
+        margin: 50px auto;
+      }
+      .wrapper > .title_wrapper{
+        width: 100%;
+        height: 30px;
+        background: gray;
+        /*padding: 5px;*/
+      }
+      .wrapper > .title_wrapper .btn{
+        width: 100px;
+        height: 28px;
+        line-height: 28px;
+        cursor: pointer;
+        display: inline-block;
+        text-align: center;
+        border: 1px solid gray;
+      }
+
+      .wrapper > .title_wrapper .btn a{
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+      }
+      .wrapper .content_wrapper .content:target{
+        display: block;
+      }
+      .wrapper .content_wrapper{
+        width: 498px;
+        height: 320px;
+        border: 1px solid gray;
+      }
+      .wrapper .content_wrapper .content{
+        width: 100%;
+        height: 100%;
+        display: none;
+        color: #000;
+      }
+
+    </style>
+    <script type="text/javascript" src="./js/cookie.js"></script>
+    <script type="text/javascript" src="./js/jquery-3.2.1.min.js">
+
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="title_wrapper">
+        <span class="btn"><a href="#a1">娱乐</a></span>
+        <span class="btn"><a href="#a2">体育</a></span>
+        <span class="btn"><a href="#a3">科技</a></span>
+        <span class="btn"><a href="#a4">财经</a></span>
+      </div>
+      <div class="content_wrapper">
+        <div id="a1" class="content">啦啦啦</div>
+        <div id="a2" class="content">啦1啦123啦</div>
+        <div id="a3" class="content">啦23123啦啦</div>
+        <div id="a4" class="content">啦啦2323啦</div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+    var qiuwei = 123;
+    // cookie.getCookie('left',function(res){
+    //   $('.demo').css('left',res)
+    // }).getCookie('top',function(res){
+    //   $('.demo').css('top',res)
+    // })
+    // $('.demo').on('mousedown',function(e){
+    //   var disX = $('.demo').offset().left - e.pageX;
+    //   var disY = $('.demo').offset().top - e.pageY;
+    //   $('document').on('mousemove',function(e){
+    //     $('.demo').css('left',e.pageX + disX).css('top',e.pageY + disY)
+    //   })
+    //   $('document').on('mouseup',function(){
+    //     $('document').off('mousemove');
+    //     cookie.setCookie('left',$('.demo').offset().left,30000).setCookie('top',$('.demo').offset().top,30000);
+    //   })
+    // })
+      // var div = document.getElementsByClassName('demo')[0];
+      // cookie.getCookie('left',function(res){
+      //   div.style.left = res + "px"
+      // }).getCookie('top',function(res){
+      //   div.style.top = res + "px"
+      // })
+      //
+      // div.onmousedown = function(e){
+      //   var e = e || window.event;
+      //   var disX = div.offsetLeft - e.clientX;
+      //   var disY = div.offsetTop - e.clientY;
+      //   document.onmousemove = function(e){
+      //     var e = e || window.event;
+      //     div.style.left = e.clientX + disX + "px";
+      //     div.style.top = e.clientY + disY + "px";
+      //   }
+      //   document.onmouseup = function(){
+      //     document.onmousemove = false;
+      //     cookie.setCookie('left',div.offsetLeft,30000).setCookie('top',div.offsetTop,30000);
+      //   }
+      // }
+
+    </script>
+  </body>
+</html>

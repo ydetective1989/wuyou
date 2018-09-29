@@ -1,0 +1,169 @@
+body{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  width: 100vw;
+  background: #f5f5f5;
+  font-family: arial;
+}
+/*头部*/
+.nav {
+  width: 100vw;
+  height:11.7vw;
+  background: #1861ae;
+  text-align: center;
+  line-height: 11.7vw;
+  font-size: 4vw;
+  font-weight: 400;
+  color: #fff;
+}
+
+/*公共样式*/
+
+/*工单内容*/
+.order_wrapper{
+  width: 94vw;
+  margin: -3vw auto 3vw;
+}
+.order_wrapper .order_table:not(:last-child){
+  border-bottom: 1px solid #eeeeee;
+}
+.order_wrapper .order_table{
+  height: 13.3vw;
+  background: #fff;
+  /*padding: 22px;*/
+  line-height: 13.3vw;
+}
+
+.order_wrapper .order_table h5{
+  text-align: left;
+  padding: 0 1.33vw;
+  font-size: 3.2vw;
+  color: #1861ae;
+  font-weight: 550;
+
+}
+.order_wrapper .order_table span{
+  text-align: left;
+  padding: 0 2.66vw;
+  font-size: 2.13vw;
+  font-weight: 600;
+  color: #676767;
+
+}
+.order_wrapper .order_table .type_select{
+  float: right;
+  margin-right: 1.33vw;
+  display: inline-block;
+}
+/*.order_wrapper .order_table .type_select select{
+  outline: none;
+  border: none;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 600;
+  color: #676767;
+  margin-right: 0;
+}*/
+
+.order_wrapper .order_table input{
+  border: none;
+
+}
+.order_wrapper .order_table .pro_select{
+  float: right;
+  margin-right: 1.33vw;
+  display: inline-block;
+}
+.order_wrapper .order_table .pro_select i {
+  color: red;
+  margin-right: 0 1.33vw;
+}
+/*.order_wrapper .order_table .pro_select select{
+  width: 120px;
+  outline: none;
+  border: none;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 600;
+  color: #969696;
+  margin-right: 0;
+  appearance:none;
+-moz-appearance:none;
+-webkit-appearance:none;
+
+}*/
+.order_wrapper .order_table .user_provice{
+  float: right;
+  margin-right: 1.33vw;
+  display: inline-block;
+  font-size: 2.13vw;
+  background: red;
+}
+
+/*结余信息*/
+.res{
+  margin: 0 auto;
+  width: 94vw;
+  height: 10.6vw;
+  background: #fcf9d6;
+  text-align: center;
+  /*line-height: 80px;*/
+  font-size: 2.66vw;
+
+
+
+}
+.res p{
+  color: #6b6766;
+  text-indent: 4.26vw;
+  line-height: 5.33vw;
+  margin-right: 4.26vw;
+}
+.res p span{
+  color: red;
+}
+/*提交按钮*/
+.btn_wrapper{
+  width: 32vw;
+  height: 6vw;
+  border-radius: 1.33vw;
+  background: #1960b0;
+  color: #fff;
+  text-align: center;
+  line-height: 6vw;
+  font-size: 3.73vw;
+  margin: 5.33vw auto;
+
+}
+
+/*提交完成界面*/
+.wrapper{
+  text-align: center;
+}
+.wrapper .success_icon{
+  width: 18.6vw;
+  height: 18.6vw;
+  border-radius: 50%;
+  background: #1861ae;
+  margin: 26.6vw auto 5.6vw;
+  text-align: center;
+}
+.wrapper .success_text{
+  font-size: 4vw;
+  font-weight:500;
+  margin-bottom: 5.6vw;
+  display: inline-block;
+}
+.wrapper .btn{
+  width: 26.6vw;
+  height: 8vw;
+  margin: 0 auto;
+  border-radius: 1.33vw;
+  background: #1861ae;
+  color: #fff;
+  text-align: center;
+  line-height: 8vw;
+  font-size: 4vw;
+}
